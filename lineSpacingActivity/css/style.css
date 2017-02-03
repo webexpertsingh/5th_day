@@ -1,0 +1,40 @@
+.manip {
+	font-family: 'Indie Flower', cursive;
+	font-size: 22px;
+	font-weight: initial;
+	line-height: 150%;
+	letter-spacing: 1px;
+}
+.demo {
+	width: 700px;
+	margin: 0 auto 0 auto;
+	border-width: 1px;
+	border-style: solid;
+	padding: 20px;
+}
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+}
+span {
+	margin-right: 20px;
+}
+a {
+	font-size: 30px;
+	text-decoration: none;
+}
+a:hover {
+	background: yellow;
+}
+a:active {
+	background: red;
+}
+a:focus {
+	background: #777777;
+}
+a:visited {
+	color: orange;
+}
